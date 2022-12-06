@@ -79,7 +79,7 @@ btnGenera.addEventListener('click', function () {
 btnReset.addEventListener('click', function clear1() {
     const reset = btnReset.value;
 })
-
+//todo prova prova
 
 
 

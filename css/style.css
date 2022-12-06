@@ -11,6 +11,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 .badge {
@@ -19,7 +20,7 @@ body {
     color: white;
     border-radius: 25px;
     height: 200px;
-    width: 200px;
+    width: 800px;
     padding: 20px;
     font-size: 20px;
     margin-top: 20px;
@@ -29,4 +30,26 @@ body {
     border: 1px solid black;
     box-shadow: 0 0 10px black;
     cursor: pointer;
+}
+
+.input-text {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 100px;
+}
+
+.bg-wall {
+    background-color: red;
+
+}
+
+.text-white {
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }

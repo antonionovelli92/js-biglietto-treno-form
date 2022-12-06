@@ -21,6 +21,7 @@ const inputName = document.getElementById('text-name')
 const inputKms = document.getElementById('text-kms')
 const inputAge = document.getElementById('text-age')
 const btnGenera = document.getElementById('btn-genera')
+const btnReset = document.getElementById('btn-reset')
 // print
 const finalName = document.getElementById('final-name')
 const finalDiscount = document.getElementById('final-discount')
@@ -73,6 +74,10 @@ btnGenera.addEventListener('click', function () {
         finalDiscount.innerText = discount;
         lastPrice.innerText = finalPrice.toFixed(2) + "€";
     }
+})
+
+btnReset.addEventListener('click', function clear1() {
+    const reset = btnReset.value;
 })
 
 
